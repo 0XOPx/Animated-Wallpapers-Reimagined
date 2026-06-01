@@ -1,0 +1,6 @@
+body {
+    font-family: "Roboto", sans-serif;
+    background: linear-gradient(to right, #444, #888);
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
