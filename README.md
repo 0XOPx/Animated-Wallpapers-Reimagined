@@ -2,6 +2,8 @@
 
 An ultra-lean, native Windows wallpaper engine built in pure C that hooks directly into the desktop environment (`WorkerW`), utilizing hardware-accelerated Media Foundation pipelines for 0% idle CPU usage and flat memory footprints.
 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e6839e2f-8f75-42fb-9421-f6cd10ae4618" />
+
 ---
 
 ## Prerequisites & Setup
@@ -63,3 +65,5 @@ clang-cl main.c resource.res /O1 /MD /link /SUBSYSTEM:WINDOWS user32.lib ole32.l
 1. **Verify Branding:** Once compiled, right-click the generated `.exe`, open **Properties**, and look at the **Details** tab. All fields—including Company, Creator, Product Name, and Copyright—will be cleanly populated with **OXOP** metadata.
 2. **Execution:** Double-click the file. The window will securely parent itself underneath your desktop icons without throwing background processing lags or memory accumulation leaks.
 3. **Graceful Exit:** To close the application and return instantly to your standard static Windows background without ghost frames, locate `Animated Wallpapers Reimagined.exe` inside Task Manager and select **End Task**.
+
+--
