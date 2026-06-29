@@ -1,7 +1,7 @@
 [Setup]
 AppId={{A3F1B8C9-2D4E-461A-8B7C-9E0F1A2B3C4D}
 AppName=Animated Wallpapers Reimagined
-AppVersion=1.0.0.0
+AppVersion=1.0.0.1
 AppPublisher=OXOP
 DefaultDirName={userappdata}\AnimatedWallpapersReimagined
 DefaultGroupName=Animated Wallpapers Reimagined
